@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+
+}
+
+body{
+ background-image: url(background.jpg);
+ background-size: cover;
+}
+
+.text-box{
+  width: 1000px;
+  margin: auto;
+  margin-top: 2%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 2%;
+  font-family: arial;
+  padding: 40px;
+}
+
+header{
+  text-align: center;
+  padding-bottom: 4px;
+}
+
+.logo{
+  width: 250px;
+}
+
+div h1{
+  color: #00dd00;
+}
+
+nav{
+  text-align: center;
+  background-color: #00dd00;
+  padding: 15px;
+  margin: 20px
+}
+
+main{
+  color: white;
+  margin: 20px
+}
+
+main .name-option{
+  font-size: 25px;
+}
+
+.place-option,.battery-option{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+}
+
+.option1, .option2, .option3{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.option1 .charge{
+ width: 320px;
+ height: 20px;
+ background-color: #f5b453;
+
+}
+.option2 .charge{
+ width: 640px;
+ height: 20px;
+ background-color: #1ec31e;
+
+}
+.option3 .charge{
+ width: 160px;
+ height: 20px;
+ background-color: #be4141;
+
+}
